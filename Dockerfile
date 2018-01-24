@@ -11,5 +11,8 @@ ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 # install Firebase CLI
 RUN npm install -g firebase-tools
 
+# install Firebase Bolt
+RUN npm install -g firebase-bolt
+
 # reset user back to root
 USER root
